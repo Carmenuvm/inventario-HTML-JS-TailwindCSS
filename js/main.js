@@ -18,7 +18,7 @@ const buscar = document.querySelector("#buscar");
 
 // evento que se produce al hacer submit en el formulario
 formularioAgregar.addEventListener("submit", (e) => {
-  e.preventDefault;
+  e.preventDefault();
 
   // validamos si lo que se pretende es agregar un producto o editarlo
   if (formOpcion.value == "agregar") {
